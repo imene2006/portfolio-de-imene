@@ -1,0 +1,86 @@
+/* Section générale */
+section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+/* Titres */
+h2 {
+  color: #ff8eb3; /* rose clair */
+  border-bottom: 3px solid #ff8eb3;
+  padding-bottom: 0.3rem;
+  font-size: 2rem;
+}
+
+/* Cartes projets (version rose pastel) */
+.project-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Titres des cartes */
+.project-card h3 {
+  color: #e36482; /* pêche rosé */
+  margin-bottom: 0.5rem;
+}
+
+.project-card h4 {
+  color: #b03b62; /* rose foncé */
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  font-size: 1.1rem;
+}
+
+.project-card ul {
+  margin: 0.3rem 0 0.8rem 1.2rem;
+}
+
+/* Images dans les cartes */
+.project-card img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 1px solid #ffccd9; /* rose très clair */
+}
+
+/* Boutons */
+.project_card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  background: #ff8eb3;        /* rose clair */
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.project-card a:hover {
+  background: #e36482;        /* pêche rosé */
+}
+
+/* Bouton GitHub */
+.btn-github {
+  display: inline-block;
+  background-color: #b03b62;  /* rose foncé */
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-github:hover {
+  background-color: #ff8eb3;  /* rose clair */
+}

@@ -1,0 +1,179 @@
+/* ===============================
+   Structure générale
+================================== */
+
+section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+
+/* ===============================
+   Titre principal centré
+================================== */
+
+#titre-principale {
+  color: #ff8eb3;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 3px solid #ff8eb3;
+  padding-bottom: 0.3rem;
+  display: block;
+  text-align: center; /* centrage */
+  margin: 0 auto 1rem auto;
+}
+
+
+/* ===============================
+   Navigation
+================================== */
+
+nav {
+  background-color: #ffe6ee;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.menu a {
+  text-decoration: underline;
+  color: #e36482;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+/* ===============================
+   Photo de profil
+================================== */
+
+.ma-photo {
+  width: 150px;
+  height: 250px;
+  border-radius: 10%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+
+/* ===============================
+   Présentation (carte)
+================================== */
+
+.presentation {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centre tout */
+  gap: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.presentation:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.presentation__content {
+  min-width: 0;
+}
+
+.presentation__name {
+  margin: 0 0 6px 0;
+  font-size: 1.7rem;
+  color: #e36482;
+  letter-spacing: 0.5px;
+}
+
+.presentation__bio {
+  margin: 0 0 10px 0;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+
+/* ===============================
+   Matières préférées
+================================== */
+
+.matieres-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.matiere-box {
+  flex: 1;
+  min-width: 220px;
+  background: #ffe6ee;
+  border: 1px solid #ffccd9;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.matiere-box h4 {
+  color: #b03b62;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.matiere-box:hover {
+  background: #ffdce8;
+  transform: scale(1.03);
+}
+
+
+/* ===============================
+   Projets scolaires
+================================== */
+
+.projets-list {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.projets-list li {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+
+/* ===============================
+   Carte Bac
+================================== */
+
+.bac-card {
+  background: #fff3f7;
+  border-left: 6px solid #ff8eb3;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.bac-quote {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #ffe6ee;
+  border-left: 4px solid #e36482;
+  font-style: italic;
+  border-radius: 6px;
+  color: #8a2c4c;
+}

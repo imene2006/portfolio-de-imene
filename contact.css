@@ -1,0 +1,70 @@
+/* ===== STYLE GLOBAL ===== */
+body {
+  font-family: Arial, sans-serif;
+  background: #ffeef5; /* rose très clair */
+  margin: 0;
+  padding: 0;
+  color: #4a1c2a; /* rose foncé pour le texte */
+}
+
+/* ===== MENU ===== */
+.menu-principal {
+  background: #ff8bb4; /* rose vif */
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  border-bottom: 3px solid #d94a7a; /* rose foncé */
+}
+
+.menu-principal a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.menu-principal a:hover {
+  color: #4a1c2a;
+  text-decoration: underline;
+}
+
+/* ===== CONTENEUR ===== */
+.contact-container {
+  width: 80%;
+  max-width: 700px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255, 150, 180, 0.4);
+  border: 2px solid #ffc4d6; /* bordure rose clair */
+}
+
+.contact-container h1 {
+  text-align: center;
+  color: #d94a7a; /* rose foncé */
+  margin-bottom: 10px;
+}
+
+.contact-container p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #633447;
+}
+
+/* ===== FORMULAIRE ===== */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form label {
+  font-weight: bold;
+  color: #4a1c2a;
+}
+
+.contact-form input,
+.contact-form textarea

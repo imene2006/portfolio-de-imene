@@ -1,6 +1,33 @@
+/* ===============================
+   Menu principal
+================================== */
+.menu-principal {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  background-color: #ffeef4; /* rose clair cohérent avec les autres pages */
+  padding: 12px 0;
+  border-radius: 10px;
+  margin: 1rem auto;
+  max-width: 900px;
+}
+
+.menu-principal a {
+  text-decoration: none;
+  color: #e36482; /* rose foncé harmonisé avec les titres */
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.menu-principal a:hover {
+  text-decoration: underline;
+  color: #b03b62; /* légèrement plus foncé au survol */
+}
+
 /* ------------------------------
    Structure générale de la page
-   ------------------------------ */
+------------------------------ */
 section {
   max-width: 900px;  /* largeur du contenu */
   margin: 2rem auto; /* centre la section */
@@ -9,7 +36,7 @@ section {
 
 /* ------------------------------
    Titre principal
-   ------------------------------ */
+------------------------------ */
 h2 {
   color: #ff8eb3;               /* rose clair */
   border-bottom: 3px solid #ff8eb3;
@@ -19,7 +46,7 @@ h2 {
 
 /* ------------------------------
    Carte style portfolio (comme project-card)
-   ------------------------------ */
+------------------------------ */
 .parcours-card {
   background: #ffffff;
   border-radius: 12px;          /* coins arrondis */
@@ -43,8 +70,7 @@ h2 {
 
 /* ------------------------------
    Tableau des moyennes
-   ------------------------------ */
-
+------------------------------ */
 table {
   width: 100%;                 /* occupe toute la largeur */
   border-collapse: collapse;   /* fusionne les bordures */
@@ -75,34 +101,10 @@ tr:nth-child(even) {
 tr:hover {
   background-color: #ffeef3;
 }
-/* ===============================
-   Structure générale et cartes
-================================== */
-
-.parcours-card {
-  background: #ffffff;
-  border-radius: 12px;
-  padding: 1.5rem;
-  margin-top: 1.5rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  transition: 0.2s;
-}
-
-.parcours-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-}
-
-.parcours-card h3 {
-  color: #e36482; /* pêche rosé */
-  margin-bottom: 1rem;
-}
-
 
 /* ===============================
    Section : Matières préférées
 ================================== */
-
 .matieres-container {
   display: flex;
   gap: 1rem;
@@ -132,11 +134,9 @@ tr:hover {
   transform: scale(1.03);
 }
 
-
 /* ===============================
    Section : Projets scolaires
 ================================== */
-
 .projets-list {
   margin-left: 1rem;
   margin-top: 1rem;
@@ -147,14 +147,14 @@ tr:hover {
   color: #333;
 }
 
-
 /* ===============================
    Section : Diplôme du Bac
 ================================== */
-
 .bac-card {
   background: #fff3f7;  /* rose très clair */
   border-left: 6px solid #ff8eb3;
+  padding: 1rem;
+  border-radius: 10px;
 }
 
 .bac-quote {
@@ -166,7 +166,3 @@ tr:hover {
   border-radius: 6px;
   color: #8a2c4c;
 }
-
-
-
-   

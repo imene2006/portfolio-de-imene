@@ -1,11 +1,40 @@
-/* Section générale */
+/* ===============================
+   MENU PRINCIPAL
+   =============================== */
+.menu-principal {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  background-color: #fdf5f8; /* fond clair, harmonisé avec les autres pages */
+  padding: 12px 0;
+  border-radius: 10px;
+  margin: 1rem auto;
+  max-width: 900px;
+}
+
+.menu-principal a {
+  text-decoration: none;
+  color: #e36482; /* rose foncé */
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.menu-principal a:hover {
+  color: #b03b62; /* rose plus foncé au survol */
+  text-decoration: underline;
+}
+
+/* ===============================
+   SECTION GÉNÉRALE
+   =============================== */
 section {
   max-width: 900px;
   margin: 2rem auto;
   padding: 1rem;
 }
 
-/* Titres */
+/* Titre principal de la section */
 h2 {
   color: #ff8eb3; /* rose clair */
   border-bottom: 3px solid #ff8eb3;
@@ -13,13 +42,15 @@ h2 {
   font-size: 2rem;
 }
 
-/* Cartes projets (version rose pastel) */
+/* ===============================
+   CARTE PROJET
+   =============================== */
 .project-card {
-  background: #ffffff;
+  background: #ffffff; /* carte blanche */
   border-radius: 12px;
   padding: 1.5rem;
   margin-top: 1.5rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* ombre douce */
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -28,7 +59,7 @@ h2 {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* Titres des cartes */
+/* Titres à l'intérieur de la carte */
 .project-card h3 {
   color: #e36482; /* pêche rosé */
   margin-bottom: 0.5rem;
@@ -41,11 +72,12 @@ h2 {
   font-size: 1.1rem;
 }
 
+/* Listes dans la carte */
 .project-card ul {
   margin: 0.3rem 0 0.8rem 1.2rem;
 }
 
-/* Images dans les cartes */
+/* Images dans la carte */
 .project-card img {
   max-width: 100%;
   border-radius: 10px;
@@ -53,23 +85,9 @@ h2 {
   border: 1px solid #ffccd9; /* rose très clair */
 }
 
-/* Boutons */
-.project_card a {
-  display: inline-block;
-  margin-top: 10px;
-  text-decoration: none;
-  color: #ffffff;
-  background: #ff8eb3;        /* rose clair */
-  padding: 8px 14px;
-  border-radius: 6px;
-  transition: background 0.2s;
-}
-
-.project-card a:hover {
-  background: #e36482;        /* pêche rosé */
-}
-
-/* Bouton GitHub */
+/* ===============================
+   LIEN / BOUTON GITHUB
+   =============================== */
 .btn-github {
   display: inline-block;
   background-color: #b03b62;  /* rose foncé */
@@ -82,5 +100,5 @@ h2 {
 }
 
 .btn-github:hover {
-  background-color: #ff8eb3;  /* rose clair */
+  background-color: #ff8eb3; /* rose clair au survol */
 }

@@ -3,7 +3,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  background: #fdf5f8; /* fond rose très pâle identique à competences */
+  background: #fdf5f8; 
 }
 
 /* ===== Menu principal ===== */
@@ -127,3 +127,4 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
